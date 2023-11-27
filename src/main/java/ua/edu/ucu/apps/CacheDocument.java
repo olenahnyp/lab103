@@ -13,7 +13,7 @@ public class CacheDocument {
         this.doc = document;
     }
     private Connection connect() {
-        String url = "jdbc:sqlite:sqlite2.db";
+        String url = "jdbc:sqlite:sqlite.db";
         Connection conn = null;
         try {
             conn = DriverManager.getConnection(url);
